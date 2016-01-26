@@ -1,5 +1,4 @@
 // Copy this file, and add rule overrides as needed.
 {
-  "extends": "airbnb",
-  "comma-dangle", [2, "never"]
+  "extends": "auth0"
 }
