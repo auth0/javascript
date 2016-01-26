@@ -1,19 +1,19 @@
 {
-  "name": "airbnb-style",
+  "name": "auth0-style",
   "version": "2.0.0",
   "description": "A mostly reasonable approach to JavaScript.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "publish-all": "npm publish && cd ./packages/eslint-config-airbnb && npm publish"
+    "publish-all": "npm publish && cd ./packages/eslint-config-auth0 && npm publish"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/airbnb/javascript.git"
+    "url": "https://github.com/auth0/javascript.git"
   },
   "keywords": [
     "style guide",
     "lint",
-    "airbnb",
+    "auth0",
     "es6",
     "es2015",
     "react",
@@ -22,7 +22,7 @@
   "author": "Harrison Shoff <hi@hshoff.com> (https://twitter.com/hshoff)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/airbnb/javascript/issues"
+    "url": "https://github.com/auth0/javascript/issues"
   },
-  "homepage": "https://github.com/airbnb/javascript"
+  "homepage": "https://github.com/auth0/javascript"
 }

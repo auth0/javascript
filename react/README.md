@@ -1,4 +1,4 @@
-# Airbnb React/JSX Style Guide
+# Auth0 React/JSX Style Guide
 
 *A mostly reasonable approach to React and JSX*
 
