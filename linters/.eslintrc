@@ -1,5 +1,5 @@
-// Use this file as a starting point for your project's .eslintrc.
 // Copy this file, and add rule overrides as needed.
 {
-  "extends": "auth0"
+  "extends": "airbnb",
+  "comma-dangle", [2, "never"]
 }
