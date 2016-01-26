@@ -2244,7 +2244,7 @@ Other Style Guides
   - Code Style Linters
     + [ESlint](http://eslint.org/) - [Auth0 Style .eslintrc](https://github.com/auth0/javascript/blob/master/linters/.eslintrc)
     + [JSHint](http://jshint.com/) - [Auth0 Style .jshintrc](https://github.com/auth0/javascript/blob/master/linters/.jshintrc)
-    + [JSCS](https://github.com/jscs-dev/node-jscs) - [Airbnb Style Preset](https://github.com/jscs-dev/node-jscs/blob/master/presets/airbnb.json)
+    + [JSCS](https://github.com/jscs-dev/node-jscs) - [Auth0 Style .jscsrc](https://github.com/auth0/javascript/blob/master/linters/.jscsrc)
 
 **Other Style Guides**
 
