@@ -5,7 +5,7 @@ module.exports = {
     './rules/variables'
   ].map(require.resolve),
   parserOptions: {
-    ecmaVersion: 7,
+    ecmaVersion: 2016,
     sourceType: 'module'
   },
   rules: {
