@@ -5,8 +5,11 @@ module.exports = {
     './rules/variables'
   ].map(require.resolve),
   parserOptions: {
-    ecmaVersion: 2016,
-    sourceType: 'module'
+    ecmaVersion: 2017,
+    sourceType: 'module',
+    ecmaFeatures: {
+      experimentalObjectRestSpread: true
+    }
   },
   rules: {
     strict: 'error'
