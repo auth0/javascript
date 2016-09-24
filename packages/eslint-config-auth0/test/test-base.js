@@ -13,6 +13,7 @@ if (fs.existsSync(rulesPath)) {
       return;
     }
 
+    // eslint-disable-next-line import/no-dynamic-require
     files[name] = require(`../rules/${name}`); // eslint-disable-line global-require
   });
 }
