@@ -1,3 +1,7 @@
+Unreleased
+==================
+- [breaking] Only allow JSX in .js file extension [`react/jsx-filename-extension`][react/jsx-filename-extension].
+
 6.0.1 / 2016-09-25
 ==================
 - Update eslint-config-auth0-base to v6.0.0
@@ -33,5 +37,6 @@
 - Remove trailing comma enforcement [`comma-dangle`][comma-dangle]
 - Allow early use of functions [`no-use-before-define`][no-use-before-define]
 
+[react/jsx-filename-extension]: https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-filename-extension.md
 [comma-dangle]: http://eslint.org/docs/rules/comma-dangle
 [no-use-before-define]: http://eslint.org/docs/rules/no-use-before-define
