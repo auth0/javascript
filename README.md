@@ -1140,7 +1140,7 @@ Other Style Guides
     ```javascript
     // bad
     // filename es6.js
-    export { es6 as default } from './auth0StyleGuide';
+    export { es6 as default } from './Auth0StyleGuide';
 
     // good
     // filename es6.js
