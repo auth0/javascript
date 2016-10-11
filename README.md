@@ -850,7 +850,7 @@ Other Style Guides
 
     // good
     [1, 2, 3].map((number, index) => ({
-      index: number
+      [index]: number
     }));
     ```
 
