@@ -342,7 +342,7 @@ Other Style Guides
     const itemsCopy = [];
     let i;
 
-    for (i = 0; i < len; i++) {
+    for (i = 0; i < len; i += 1) {
       itemsCopy[i] = items[i];
     }
 
@@ -557,7 +557,7 @@ Other Style Guides
 
     // good
     const foo = '\'this\' is "quoted"';
-    const foo = `my name is '${name}'`;		
+    const foo = `my name is '${name}'`;
     ```
 
 **[⬆ back to top](#table-of-contents)**
