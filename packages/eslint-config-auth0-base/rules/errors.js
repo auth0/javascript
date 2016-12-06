@@ -3,4 +3,4 @@ module.exports = {
     // disallow trailing commas in object literals
     'comma-dangle': ['error', 'never']
   }
-};
+}

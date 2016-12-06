@@ -2,6 +2,7 @@ module.exports = {
   extends: [
     'eslint-config-airbnb-base/legacy',
     './rules/errors',
+    './rules/style',
     './rules/variables'
   ].map(require.resolve),
   env: {
@@ -16,4 +17,4 @@ module.exports = {
   rules: {
     'comma-dangle': ['error', 'never']
   }
-};
+}
