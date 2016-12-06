@@ -8,7 +8,7 @@ const files = { base };
 const rulesPath = path.join(__dirname, '../rules');
 
 if (fs.existsSync(rulesPath)) {
-  fs.readdirSync(rulesPath).forEach(name => {
+  fs.readdirSync(rulesPath).forEach((name) => {
     if (name === 'react.js' || name === 'react-a11y.js') {
       return;
     }
@@ -17,10 +17,10 @@ if (fs.existsSync(rulesPath)) {
   });
 }
 
-Object.keys(files).forEach(name => {
+Object.keys(files).forEach((name) => {
   const config = files[name];
 
-  test(`${name}: does not reference react`, t => {
+  test(`${name}: does not reference react`, (t) => {
     t.plan(2);
 
     // scan plugins for react and fail if it is found

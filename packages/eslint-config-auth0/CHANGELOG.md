@@ -1,6 +1,8 @@
-Unreleased
+7.0.0 / 2016-12-06
 ==================
 - [breaking] Only allow JSX in .js file extension [`react/jsx-filename-extension`][react/jsx-filename-extension].
+- Merge commits from [eslint-config-airbnb v11.2.0](https://github.com/airbnb/javascript/blob/master/packages/eslint-config-airbnb/CHANGELOG.md#1120--2016-09-23) state and solve conflicts.
+- Update eslint-config-auth0-base to v8.0.0
 
 6.0.1 / 2016-09-25
 ==================

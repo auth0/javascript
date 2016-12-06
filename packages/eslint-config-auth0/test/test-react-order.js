@@ -26,7 +26,7 @@ function wrapComponent(body) {
 import React from 'react';
 
 export default class MyComponent extends React.Component {
-/* eslint no-empty-function: 0 */
+/* eslint no-empty-function: 0, class-methods-use-this: 0 */
 ${body}
 }
 `;
@@ -57,7 +57,7 @@ test('validate react prop order', (t) => {
     t.deepEquals(result.messages, [], 'no messages in results');
   });
 
-  t.test('order: when random method is first', t => {
+  t.test('order: when random method is first', (t) => {
     t.plan(2);
     const result = lint(wrapComponent(`
   someMethod() {}
@@ -74,7 +74,7 @@ test('validate react prop order', (t) => {
     t.equal(result.messages[0].ruleId, 'react/sort-comp', 'fails due to sort');
   });
 
-  t.test('order: when random method after lifecycle methods', t => {
+  t.test('order: when random method after lifecycle methods', (t) => {
     t.plan(2);
     const result = lint(wrapComponent(`
   componentWillMount() {}
