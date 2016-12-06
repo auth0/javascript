@@ -15,6 +15,6 @@ module.exports = {
   globals: {},
   rules: {
     'comma-dangle': ['error', 'never'],
-    'prefer-numeric-literals': 'off',
+    'prefer-numeric-literals': 'off'
   }
 };
