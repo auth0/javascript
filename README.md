@@ -6,7 +6,7 @@
 [![Downloads](https://img.shields.io/npm/dm/eslint-config-auth0-base.svg)](https://www.npmjs.com/package/eslint-config-auth0-base)
 
 Other Style Guides
- - [ES5 (Deprecated)](https://github.com/airbnb/javascript/tree/es5-deprecated/es5)
+ - [ES5 (Deprecated)](https://github.com/auth0/javascript/tree/es5-deprecated/es5)
  - [React](react/)
 
 ## Table of Contents
@@ -2107,14 +2107,14 @@ Other Style Guides
 
     ```javascript
     // bad
-    import { es6 } from './AirbnbStyleGuide';
+    import { es6 } from './Auth0StyleGuide';
       // ...
     export default es6;
     ```
 
     ```javascript
     // bad
-    import { es6 } from './AirbnbStyleGuide';
+    import { es6 } from './Auth0StyleGuide';
       // ...
     export default es6;↵
     ↵
@@ -2122,7 +2122,7 @@ Other Style Guides
 
     ```javascript
     // good
-    import { es6 } from './AirbnbStyleGuide';
+    import { es6 } from './Auth0StyleGuide';
       // ...
     export default es6;↵
     ```
