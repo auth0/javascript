@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-auth0-base",
-  "version": "8.0.0",
+  "version": "9.0.0",
   "description": "Auth0's base JS ESLint config, following our styleguide",
   "main": "index.js",
   "scripts": {
@@ -62,6 +62,6 @@
     "node": ">= 4"
   },
   "dependencies": {
-    "eslint-config-airbnb-base": "^7.2.0"
+    "eslint-config-airbnb-base": "^8.0.0"
   }
 }
