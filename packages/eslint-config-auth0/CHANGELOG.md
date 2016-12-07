@@ -1,3 +1,8 @@
+9.0.0 / 2016-12-07
+==================
+- Merge docs changes and update to [eslint-config-airbnb v13.0.0](https://github.com/airbnb/javascript/blob/master/packages/eslint-config-airbnb/CHANGELOG.md#1300--2016-11-06).
+- Update eslint-config-auth0-base to v11.0.0
+
 8.0.0 / 2016-12-07
 ==================
 - Update eslint-config-auth0-base to v9.0.0
