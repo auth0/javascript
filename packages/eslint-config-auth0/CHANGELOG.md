@@ -1,3 +1,7 @@
+9.0.1 / 2016-12-09
+==================
+- Fix custom react rules.
+
 9.0.0 / 2016-12-07
 ==================
 - Merge docs changes and update to [eslint-config-airbnb v13.0.0](https://github.com/airbnb/javascript/blob/master/packages/eslint-config-airbnb/CHANGELOG.md#1300--2016-11-06).
