@@ -34,6 +34,20 @@ Our default export contains all of our ESLint rules, including ECMAScript 6+ and
   ```
 
 2. Add `"extends": "auth0"` to your .eslintrc
+  Windows users can either install all the peer dependencies manually, or use the [install-peerdeps](https://github.com/nathanhleung/install-peerdeps) cli tool.
+
+  ```sh
+  npm install -g install-peerdeps
+  install-peerdeps --dev eslint-config-auth0
+  ```
+
+  The cli will produce and run a command like:
+
+  ```sh
+  npm install --save-dev eslint-config-auth0 eslint@^#.#.# eslint-plugin-jsx-a11y@^#.#.# eslint-plugin-import@^#.#.# eslint-plugin-react@^#.#.#
+  ```
+
+2. Add `"extends": "auth0"` to your .eslintrc
 
 ### eslint-config-auth0/base
 
