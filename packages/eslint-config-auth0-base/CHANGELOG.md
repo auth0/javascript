@@ -1,3 +1,7 @@
+12.0.0 / 2017-01-08
+==================
+- Merge docs changes and update to [eslint-config-airbnb-base v11.0.1](https://github.com/airbnb/javascript/blob/master/packages/eslint-config-airbnb-base/CHANGELOG.md#1101--2017-01-08).
+
 11.0.0 / 2016-12-07
 ==================
 - Merge docs changes and update to [eslint-config-airbnb-base v10.0.1](https://github.com/airbnb/javascript/blob/master/packages/eslint-config-airbnb-base/CHANGELOG.md#1001--2016-11-07).
