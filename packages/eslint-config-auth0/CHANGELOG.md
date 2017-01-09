@@ -1,3 +1,8 @@
+10.0.0 / 2017-01-08
+==================
+- Merge docs changes and update to [eslint-config-airbnb v14.0.0](https://github.com/airbnb/javascript/blob/master/packages/eslint-config-airbnb/CHANGELOG.md#1400--2017-01-08).
+- Update eslint-config-auth0-base to v12.0.0
+
 9.0.1 / 2016-12-09
 ==================
 - Fix custom react rules.
