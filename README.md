@@ -1663,7 +1663,7 @@ Other Style Guides
 
       var named = function named() {
         console.log('named');
-      }
+      };
     }
     ```
 
