@@ -899,7 +899,7 @@ Other Style Guides
 
     > Why? It shows clearly where the function starts and ends.
 
-    ```js
+    ```javascript
     // bad
     ['get', 'post', 'put'].map(httpMethod => Object.prototype.hasOwnProperty.call(
         httpMagicObjectWithAVeryLongName,
@@ -921,7 +921,7 @@ Other Style Guides
 
     > Why? Less visual clutter.
 
-    ```js
+    ```javascript
     // bad
     [1, 2, 3].map((x) => x * x);
 
@@ -949,7 +949,7 @@ Other Style Guides
   <a name="arrows--confusing"></a><a name="8.5"></a>
   - [8.5](#arrows--confusing) Avoid confusing arrow function syntax (`=>`) with comparison operators (`<=`, `>=`). eslint: [`no-confusing-arrow`](http://eslint.org/docs/rules/no-confusing-arrow)
 
-    ```js
+    ```javascript
     // bad
     const itemHeight = item => item.height > 256 ? item.largeSize : item.smallSize;
 
@@ -1343,7 +1343,7 @@ Other Style Guides
 
     > Why? `function` and `*` are part of the same conceptual keyword - `*` is not a modifier for `function`, `function*` is a unique construct, different from `function`.
 
-    ```js
+    ```javascript
     // bad
     function * foo() {
       // ...
