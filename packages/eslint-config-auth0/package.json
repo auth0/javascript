@@ -24,20 +24,11 @@
     "javascript",
     "styleguide"
   ],
-  "author": "Jake Teton-Landis (https://twitter.com/@jitl)",
+  "author": "Ramiro Silveyra d'Avila (https://twitter.com/@ramasilveyra)",
   "contributors": [
     {
-      "name": "Jake Teton-Landis",
-      "url": "https://twitter.com/jitl"
-    },
-    {
-      "name": "Jordan Harband",
-      "email": "ljharb@gmail.com",
-      "url": "http://ljharb.codes"
-    },
-    {
-      "name": "Harrison Shoff",
-      "url": "https://twitter.com/hshoff"
+      "name": "Alejo Fernandez",
+      "url": "https://github.com/alejofernandez"
     }
   ],
   "license": "MIT",
