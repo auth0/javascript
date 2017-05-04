@@ -46,18 +46,18 @@
   },
   "homepage": "https://github.com/auth0/javascript",
   "devDependencies": {
-    "babel-preset-airbnb": "^2.1.0",
+    "babel-preset-airbnb": "^2.2.3",
     "babel-tape-runner": "^2.0.1",
     "editorconfig-tools": "^0.1.1",
-    "eslint": "^3.13.0",
-    "eslint-find-rules": "^1.13.1",
+    "eslint": "^3.19.0",
+    "eslint-find-rules": "^1.14.3",
     "eslint-plugin-import": "^2.2.0",
     "in-publish": "^2.0.0",
-    "safe-publish-latest": "^1.0.1",
-    "tape": "^4.6.0"
+    "safe-publish-latest": "^1.1.1",
+    "tape": "^4.6.3"
   },
   "peerDependencies": {
-    "eslint": "^3.13.0",
+    "eslint": "^3.19.0",
     "eslint-plugin-import": "^2.2.0"
   },
   "engines": {
