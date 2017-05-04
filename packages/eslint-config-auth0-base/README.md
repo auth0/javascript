@@ -73,6 +73,32 @@ Lints ES5 and below. Requires `eslint` and `eslint-plugin-import`.
 
 2. Add `"extends": "auth0-base/legacy"` to your .eslintrc
 
+### eslint-config-auth0-base/prettier
+
+Same of `eslint-config-auth0-base` but turns off all rules that are unnecessary or might conflict with prettier.
+
+1. Install the correct versions of each package, which are listed by the command:
+
+  ```sh
+  npm info "eslint-config-auth0-base@latest" peerDependencies
+  ```
+
+  Linux/OSX users can run
+  ```sh
+  (
+    export PKG=eslint-config-auth0-base;
+    npm info "$PKG" peerDependencies --json | command sed 's/[\{\},]//g ; s/: /@/g' | xargs npm install --save-dev "$PKG"
+  )
+  ```
+
+  Which produces and runs a command like:
+
+  ```sh
+  npm install --save-dev eslint-config-auth0-base eslint@^#.#.# eslint-plugin-import@^#.#.#
+  ```
+
+2. Add `"extends": "auth0-base/prettier"` to your .eslintrc
+
 See [Auth0's overarching ESLint config](https://npmjs.com/eslint-config-auth0), [Auth0's Javascript styleguide](https://github.com/auth0/javascript), and the [ESlint config docs](http://eslint.org/docs/user-guide/configuring#extending-configuration-files) for more information.
 
 ## Improving this config

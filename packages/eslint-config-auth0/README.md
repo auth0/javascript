@@ -49,6 +49,32 @@ Our default export contains all of our ESLint rules, including ECMAScript 6+ and
 
 2. Add `"extends": "auth0"` to your .eslintrc
 
+### eslint-config-auth0/prettier
+
+Same of `eslint-config-auth0` but turns off all rules that are unnecessary or might conflict with prettier.
+
+1. Install the correct versions of each package, which are listed by the command:
+
+  ```sh
+  npm info "eslint-config-auth0@latest" peerDependencies
+  ```
+
+  Linux/OSX users can run
+  ```sh
+  (
+    export PKG=eslint-config-auth0;
+    npm info "$PKG" peerDependencies --json | command sed 's/[\{\},]//g ; s/: /@/g' | xargs npm install --save-dev "$PKG"
+  )
+  ```
+
+  Which produces and runs a command like:
+
+  ```sh
+  npm install --save-dev eslint-config-auth0 eslint@^#.#.# eslint-plugin-jsx-a11y@^#.#.# eslint-plugin-import@^#.#.# eslint-plugin-react@^#.#.#
+  ```
+
+2. Add `"extends": "auth0/prettier"` to your .eslintrc
+
 ### eslint-config-auth0/base
 
 This entry point is deprecated. See [eslint-config-auth0-base](https://npmjs.com/eslint-config-auth0-base).
