@@ -1,3 +1,8 @@
+12.1.0 / 2017-05-05
+==================
+- Add prettier entry point.
+- Add exception to rule `no-underscore-dangle` to allow `_id`, specially for projects that use mongo.
+
 12.0.1 / 2017-05-03
 ==================
 - Merge docs changes from airbnb and update deps.
