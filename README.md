@@ -3255,9 +3255,11 @@ Other Style Guides
 
 ## License
 
+Forked from the excellent Airbnb JavaScript Style Guide, slightly modified to fit Auth0 conventions. https://github.com/airbnb/javascript/blob/master/LICENSE.md
+
 (The MIT License)
 
-Copyright (c) 2014-2016 Airbnb
+Copyright (c) 2016-2017 Auth0
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
