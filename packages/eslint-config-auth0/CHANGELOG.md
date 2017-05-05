@@ -1,3 +1,8 @@
+10.2.0 / 2017-05-05
+==================
+- Add prettier entry point.
+- Update eslint-config-auth0-base to v12.1.0
+
 10.1.0 / 2017-05-03
 ==================
 - Merge docs changes from airbnb and update deps.
