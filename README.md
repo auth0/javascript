@@ -6,8 +6,8 @@
 [![Downloads](https://img.shields.io/npm/dm/eslint-config-auth0-base.svg)](https://www.npmjs.com/package/eslint-config-auth0-base)
 
 Other Style Guides
- - [ES5 (Deprecated)](https://github.com/auth0/javascript/tree/es5-deprecated/es5)
- - [React](react/)
+  - [ES5 (Deprecated)](https://github.com/auth0/javascript/tree/es5-deprecated/es5)
+  - [React](react/)
 
 ## Table of Contents
 
@@ -50,11 +50,11 @@ Other Style Guides
   <a name="types--primitives"></a><a name="1.1"></a>
   - [1.1](#types--primitives) **Primitives**: When you access a primitive type you work directly on its value.
 
-    + `string`
-    + `number`
-    + `boolean`
-    + `null`
-    + `undefined`
+    - `string`
+    - `number`
+    - `boolean`
+    - `null`
+    - `undefined`
 
     ```javascript
     const foo = 1;
@@ -68,9 +68,9 @@ Other Style Guides
   <a name="types--complex"></a><a name="1.2"></a>
   - [1.2](#types--complex)  **Complex**: When you access a complex type you work on a reference to its value.
 
-    + `object`
-    + `array`
-    + `function`
+    - `object`
+    - `array`
+    - `function`
 
     ```javascript
     const foo = [1, 2];
@@ -516,7 +516,6 @@ Other Style Guides
     const { left, top } = processInput(input);
     ```
 
-
 **[⬆ back to top](#table-of-contents)**
 
 ## Strings
@@ -601,7 +600,6 @@ Other Style Guides
     ```
 
 **[⬆ back to top](#table-of-contents)**
-
 
 ## Functions
 
@@ -1008,7 +1006,6 @@ Other Style Guides
 
 **[⬆ back to top](#table-of-contents)**
 
-
 ## Classes & Constructors
 
   <a name="constructors--use-class"></a><a name="9.1"></a>
@@ -1026,7 +1023,6 @@ Other Style Guides
       this.queue.splice(0, 1);
       return value;
     };
-
 
     // good
     class Queue {
@@ -1102,7 +1098,6 @@ Other Style Guides
       .setHeight(20);
     ```
 
-
   <a name="constructors--tostring"></a><a name="9.4"></a>
   - [9.4](#constructors--tostring) It's okay to write a custom toString() method, just make sure it works successfully and causes no side effects.
 
@@ -1174,9 +1169,7 @@ Other Style Guides
     }
     ```
 
-
 **[⬆ back to top](#table-of-contents)**
-
 
 ## Modules
 
@@ -1441,7 +1434,6 @@ Other Style Guides
 
 **[⬆ back to top](#table-of-contents)**
 
-
 ## Properties
 
   <a name="properties--dot"></a><a name="12.1"></a>
@@ -1477,7 +1469,6 @@ Other Style Guides
     ```
 
 **[⬆ back to top](#table-of-contents)**
-
 
 ## Variables
 
@@ -1648,7 +1639,6 @@ Other Style Guides
 
 **[⬆ back to top](#table-of-contents)**
 
-
 ## Hoisting
 
   <a name="hoisting--about"></a><a name="14.1"></a>
@@ -1748,7 +1738,6 @@ Other Style Guides
 
 **[⬆ back to top](#table-of-contents)**
 
-
 ## Comparison Operators & Equality
 
   <a name="comparison--eqeqeq"></a><a name="15.1"></a>
@@ -1757,12 +1746,12 @@ Other Style Guides
   <a name="comparison--if"></a><a name="15.2"></a>
   - [15.2](#comparison--if) Conditional statements such as the `if` statement evaluate their expression using coercion with the `ToBoolean` abstract method and always follow these simple rules:
 
-    + **Objects** evaluate to **true**
-    + **Undefined** evaluates to **false**
-    + **Null** evaluates to **false**
-    + **Booleans** evaluate to **the value of the boolean**
-    + **Numbers** evaluate to **false** if **+0, -0, or NaN**, otherwise **true**
-    + **Strings** evaluate to **false** if an empty string `''`, otherwise **true**
+    - **Objects** evaluate to **true**
+    - **Undefined** evaluates to **false**
+    - **Null** evaluates to **false**
+    - **Booleans** evaluate to **the value of the boolean**
+    - **Numbers** evaluate to **false** if **+0, -0, or NaN**, otherwise **true**
+    - **Strings** evaluate to **false** if an empty string `''`, otherwise **true**
 
     ```javascript
     if ([0] && []) {
@@ -1902,7 +1891,6 @@ Other Style Guides
 
 **[⬆ back to top](#table-of-contents)**
 
-
 ## Blocks
 
   <a name="blocks--braces"></a><a name="16.1"></a>
@@ -1952,9 +1940,7 @@ Other Style Guides
     }
     ```
 
-
 **[⬆ back to top](#table-of-contents)**
-
 
 ## Control Statements
 
@@ -2010,9 +1996,7 @@ Other Style Guides
     }
     ```
 
-
 **[⬆ back to top](#table-of-contents)**
-
 
 ## Comments
 
@@ -2153,7 +2137,6 @@ Other Style Guides
     ```
 
 **[⬆ back to top](#table-of-contents)**
-
 
 ## Whitespace
 
@@ -2612,7 +2595,6 @@ Other Style Guides
 
 **[⬆ back to top](#table-of-contents)**
 
-
 ## Semicolons
 
   <a name="semicolons--required"></a><a name="20.1"></a>
@@ -2641,7 +2623,6 @@ Other Style Guides
     [Read more](https://stackoverflow.com/questions/7365172/semicolon-before-self-invoking-function/7365214%237365214).
 
 **[⬆ back to top](#table-of-contents)**
-
 
 ## Type Casting & Coercion
 
@@ -2728,7 +2709,6 @@ Other Style Guides
     ```
 
 **[⬆ back to top](#table-of-contents)**
-
 
 ## Naming Conventions
 
@@ -2921,7 +2901,6 @@ Other Style Guides
 
 **[⬆ back to top](#table-of-contents)**
 
-
 ## Accessors
 
   <a name="accessors--not-required"></a><a name="23.1"></a>
@@ -2991,7 +2970,6 @@ Other Style Guides
 
 **[⬆ back to top](#table-of-contents)**
 
-
 ## Events
 
   <a name="events--hash"></a><a name="24.1"></a>
@@ -3022,7 +3000,6 @@ Other Style Guides
     ```
 
   **[⬆ back to top](#table-of-contents)**
-
 
 ## jQuery
 
@@ -3093,7 +3070,6 @@ Other Style Guides
 
 **[⬆ back to top](#table-of-contents)**
 
-
 ## ECMAScript 5 Compatibility
 
   <a name="es5-compat--kangax"></a><a name="26.1"></a>
@@ -3141,15 +3117,14 @@ Other Style Guides
 
   <a name="testing--for-real"></a><a name="28.2"></a>
   - [29.2](#testing--for-real) **No, but seriously**:
-   - Whichever testing framework you use, you should be writing tests!
-   - Strive to write many small pure functions, and minimize where mutations occur.
-   - Be cautious about stubs and mocks - they can make your tests more brittle.
-   - We primarily use [`mocha`](https://www.npmjs.com/package/mocha) at Auth0. [`tape`](https://www.npmjs.com/package/tape) is also used occasionally for small, separate modules.
-   - 100% test coverage is a good goal to strive for, even if it's not always practical to reach it.
-   - Whenever you fix a bug, _write a regression test_. A bug fixed without a regression test is almost certainly going to break again in the future.
+    - Whichever testing framework you use, you should be writing tests!
+    - Strive to write many small pure functions, and minimize where mutations occur.
+    - Be cautious about stubs and mocks - they can make your tests more brittle.
+    - We primarily use [`mocha`](https://www.npmjs.com/package/mocha) at Auth0. [`tape`](https://www.npmjs.com/package/tape) is also used occasionally for small, separate modules.
+    - 100% test coverage is a good goal to strive for, even if it's not always practical to reach it.
+    - Whenever you fix a bug, _write a regression test_. A bug fixed without a regression test is almost certainly going to break again in the future.
 
 **[⬆ back to top](#table-of-contents)**
-
 
 ## Performance
 
@@ -3164,7 +3139,6 @@ Other Style Guides
   - Loading...
 
 **[⬆ back to top](#table-of-contents)**
-
 
 ## Resources
 
@@ -3182,9 +3156,9 @@ Other Style Guides
 **Tools**
 
   - Code Style Linters
-    + [ESlint](http://eslint.org/) - [Auth0 Style .eslintrc](https://github.com/auth0/javascript/blob/master/linters/.eslintrc)
-    + [JSHint](http://jshint.com/) - [Auth0 Style .jshintrc](https://github.com/auth0/javascript/blob/master/linters/.jshintrc)
-    + [JSCS](https://github.com/jscs-dev/node-jscs) - [Auth0 Style .jscsrc](https://github.com/auth0/javascript/blob/master/linters/.jscsrc)
+    - [ESlint](http://eslint.org/) - [Auth0 Style .eslintrc](https://github.com/auth0/javascript/blob/master/linters/.eslintrc)
+    - [JSHint](http://jshint.com/) - [Auth0 Style .jshintrc](https://github.com/auth0/javascript/blob/master/linters/.jshintrc)
+    - [JSCS](https://github.com/jscs-dev/node-jscs) - [Auth0 Style .jscsrc](https://github.com/auth0/javascript/blob/master/linters/.jscsrc)
 
 **Other Style Guides**
 
@@ -3244,14 +3218,12 @@ Other Style Guides
   - [JavaScript Air](https://javascriptair.com/)
   - [JavaScript Jabber](https://devchat.tv/js-jabber/)
 
-
 **[⬆ back to top](#table-of-contents)**
 
 
 ## Contributors
 
   - [View Contributors](https://github.com/auth0/javascript/graphs/contributors)
-
 
 ## License
 

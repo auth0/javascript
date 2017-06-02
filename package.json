@@ -4,11 +4,14 @@
   "description": "A mostly reasonable approach to JavaScript.",
   "scripts": {
     "preinstall": "npm run install:config && npm run install:config:base",
+    "lint": "markdownlint --config linters/.markdownlint.json README.md */README.md",
+    "pretest": "npm run --silent lint",
     "install:config": "cd packages/eslint-config-auth0 && npm prune && npm install",
     "install:config:base": "cd packages/eslint-config-auth0-base && npm prune && npm install",
     "test": "npm run --silent test:config && npm run --silent test:config:base",
     "test:config": "cd packages/eslint-config-auth0; npm test",
     "test:config:base": "cd packages/eslint-config-auth0-base; npm test",
+    "pretravis": "npm run --silent lint",
     "travis": "npm run --silent travis:config && npm run --silent travis:config:base",
     "travis:config": "cd packages/eslint-config-auth0; npm run travis",
     "travis:config:base": "cd packages/eslint-config-auth0-base; npm run travis"
@@ -31,5 +34,8 @@
   "bugs": {
     "url": "https://github.com/auth0/javascript/issues"
   },
-  "homepage": "https://github.com/auth0/javascript"
+  "homepage": "https://github.com/auth0/javascript",
+  "devDependencies": {
+    "markdownlint-cli": "^0.3.1"
+  }
 }
