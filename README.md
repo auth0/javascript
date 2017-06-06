@@ -3220,7 +3220,6 @@ Other Style Guides
 
 **[⬆ back to top](#table-of-contents)**
 
-
 ## Contributors
 
   - [View Contributors](https://github.com/auth0/javascript/graphs/contributors)
