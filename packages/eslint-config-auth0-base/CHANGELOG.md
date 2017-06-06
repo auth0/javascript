@@ -1,3 +1,7 @@
+13.0.0 / 2017-06-06
+==================
+- Update `eslint-config-airbnb-base` to `^11.2.0`, and `eslint-config-prettier` to `^2.1.1`.
+
 12.1.0 / 2017-05-05
 ==================
 - Add prettier entry point.

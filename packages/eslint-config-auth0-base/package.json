@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-auth0-base",
-  "version": "12.1.0",
+  "version": "13.0.0",
   "description": "Auth0's base JS ESLint config, following our styleguide",
   "main": "index.js",
   "scripts": {
