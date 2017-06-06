@@ -1,3 +1,7 @@
+11.0.0 / 2017-06-06
+==================
+- Update deps: `eslint-config-airbnb@^15.0.1`, `eslint-config-auth0-base@^13.0.0`, `eslint-config-prettier@^2.1.1`, `eslint@^3.19.0`, `eslint-plugin-jsx-a11y@^5.0.3` and `eslint-plugin-react@^7.0.1`.
+
 10.2.0 / 2017-05-05
 ==================
 - Add prettier entry point.
