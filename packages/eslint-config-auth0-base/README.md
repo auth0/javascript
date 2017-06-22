@@ -2,7 +2,7 @@
 
 [![npm version](https://badge.fury.io/js/eslint-config-auth0-base.svg)](http://badge.fury.io/js/eslint-config-auth0-base)
 
-This package provides Auth0's base JS .eslintrc as an extensible shared config.
+This package provides Auth0's base JS .eslintrc (without React plugins) as an extensible shared config.
 
 ## Usage
 
@@ -12,13 +12,15 @@ We export two ESLint configurations for your usage.
 
 Our default export contains all of our ESLint rules, including ECMAScript 6+. It requires `eslint` and `eslint-plugin-import`.
 
+If you use yarn, run `yarn add --dev eslint-config-auth0-base eslint-plugin-import`, or see below for npm instructions.
+
 1. Install the correct versions of each package, which are listed by the command:
 
   ```sh
   npm info "eslint-config-auth0-base@latest" peerDependencies
   ```
 
-  Linux/OSX users can simply run
+  Linux/OSX users can run
   ```sh
   (
     export PKG=eslint-config-auth0-base;
@@ -45,7 +47,7 @@ Our default export contains all of our ESLint rules, including ECMAScript 6+. It
   npm install --save-dev eslint-config-auth0-base eslint@^#.#.# eslint-plugin-import@^#.#.#
   ```
 
-2. Add `"extends": "auth0-base"` to your .eslintrc
+2. Add `"extends": "auth0-base"` to your .eslintrc.
 
 ### eslint-config-auth0-base/legacy
 
