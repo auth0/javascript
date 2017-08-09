@@ -1,3 +1,8 @@
+13.1.0 / 2017-08-09
+==================
+- Update `eslint-config-airbnb-base` to `^11.3.1`, `eslint-config-prettier` to `^2.3.0` and `eslint-plugin-import` to `^2.7.0`.
+- Add support for `eslint@^4.3.0`.
+
 13.0.0 / 2017-06-06
 ==================
 - Update `eslint-config-airbnb-base` to `^11.2.0`, and `eslint-config-prettier` to `^2.1.1`.
