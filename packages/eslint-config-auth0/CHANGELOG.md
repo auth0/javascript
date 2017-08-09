@@ -1,3 +1,8 @@
+11.1.0 / 2017-08-09
+==================
+- Update `eslint-config-airbnb` to `^15.1.0`, `eslint-config-prettier` to `^2.3.0`, `eslint-config-auth0-base` to` ^13.1.0`, `eslint-plugin-react` to `^7.1.0`, `eslint-plugin-jsx-a11y` to `^5.1.1` and `eslint-plugin-import` to `^2.7.0`.
+- Add support for `eslint@^4.3.0`.
+
 11.0.0 / 2017-06-06
 ==================
 - Update deps: `eslint-config-airbnb@^15.0.1`, `eslint-config-auth0-base@^13.0.0`, `eslint-config-prettier@^2.1.1`, `eslint@^3.19.0`, `eslint-plugin-jsx-a11y@^5.0.3` and `eslint-plugin-react@^7.0.1`.
